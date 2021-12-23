@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="screen" prefHeight="680.0" prefWidth="800.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #4159d1ff 0.0%, #c750c0ff 50.0%, #fec871ff 100.0%);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pers.yuyanzhou.bubblebobble.controllers.ScoreController">
+   <children>
+      <Label layoutX="300.0" prefHeight="62.0" prefWidth="265.0" text="SCORE LIST">
+         <font>
+            <Font name="Segoe UI Black Italic" size="33.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.5916030470651524">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007518796992481203">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.999999954108905">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="29.0" layoutY="23.0" mnemonicParsing="false" onAction="#clickReturnBtn" prefHeight="50.0" prefWidth="98.0" style="-fx-background-radius: 100;" text="&lt;RETURN">
+         <font>
+            <Font name="Segoe UI Black Italic" size="14.0" />
+         </font></Button>
+      <Text fx:id="scoreArea" layoutX="300.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
