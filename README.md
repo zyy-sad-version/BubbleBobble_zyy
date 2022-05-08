@@ -374,7 +374,6 @@ public enum Set {
 
 ------
 
-word counts: 488
 
 ### Test case: 
 
